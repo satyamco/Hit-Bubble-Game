@@ -4,6 +4,7 @@
 
 const btn = document.getElementById('snGame');
 const startContainer = document.getElementById('aDiv');
+let clickSound = new Audio('sound/click.mp3')
 
 function theBubbleGame() {
 
@@ -61,7 +62,7 @@ function theBubbleGame() {
         document.getElementById('score-card').innerText = score;
     }
 
-    let clickSound = new Audio('sound/click.mp3')
+    
     document.getElementById('playgrnd').addEventListener('click', function (details) {
         
         let bubbleNum = Number(details.target.textContent)

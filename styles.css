@@ -8,7 +8,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family:  sans-serif;
     background-color: rgb(246, 215, 255);
     display: flex;
     align-items: center;
@@ -89,8 +89,9 @@ h1 {
 
 
 h2 {
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(255, 255, 255);
+    font-weight: 700;
 }
 
 .contain {
@@ -138,9 +139,9 @@ h2 {
 }
 
 .bubble {
-    width: 60px;
-    height: 60px;
-    font-size: 22px;
+    width: 65px;
+    height: 65px;
+    font-size: 24px;
     font-weight: bold;
     cursor: pointer;
     border-radius: 50%;
@@ -175,7 +176,7 @@ h2 {
     }
 
     h2 {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .scard {
@@ -189,8 +190,8 @@ h2 {
     }
 
     .bubble {
-        width: 45px;
-        height: 45px;
+        width: 55px;
+        height: 55px;
     }
 
     .playgrnd {
